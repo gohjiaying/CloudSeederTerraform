@@ -1,4 +1,3 @@
-# resource "<type>" "<name>"
-resource "docker_image" "image_id"{
+resource "docker_image" "helloworld-image"{ 
     name = "hello-world"
 }
