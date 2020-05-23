@@ -3,8 +3,14 @@ This lab will show you how to:
 1. Read and understand simple terraform configuration code
 2. Use terraform commands to apply the code
 
+
+# Reference 
+![alt text](https://github.com/gohjiaying/CloudSeedersTerraform/images/demo1explanation.png) "Workshop 1 Architecture Reference")
+
+
 # Prequsites
 Install terraform by using [terraform getting started guide](https://learn.hashicorp.com/terraform/getting-started/install.html)
+
 
 # Steps
 1. Open main.tf
@@ -39,6 +45,7 @@ Install terraform by using [terraform getting started guide](https://learn.hashi
 
 8. Run `terraform destroy` on terminal
     - To destroy the Terraform managed infrastructure
+    - Try running `docker images` or `terraform show` and notice that the "hello-world" container been removed from your local computer
 
 
 # Stretch Challenge
