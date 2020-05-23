@@ -15,10 +15,12 @@ Install terraform by using [terraform getting started guide](https://learn.hashi
 ## Steps
 1. Open main.tf
 
+
 2. Read and understand the code. 
     - Check if you are able to to answer the following questions.
         - What is a terraform provider?
         - What is a terraform resource block?
+
 
 3. Run `terraform init` on terminal. This command:
     - initalizes a working directory containing terraform configuration.
@@ -26,26 +28,33 @@ Install terraform by using [terraform getting started guide](https://learn.hashi
     - creates an aditional hidden folder named ".terraform" to organize
     packages that are required. In this case docker provider has been retrieved.
 
+
 4. Run `terraform validate` on terminal. This command:
     - checks the syntax of configuration code.
+
 
 5. Run `terraform plan` on terminal. This command:
     - generates and show an execution plan.
     - checks if potential changes match with expectations.
  
+
 6. Run `terraform apply` on terminal. This command:
     - builds or make changes to infrastructure to reach the desired state as defined in the configuration files.
+
 
 7. Run `docker images` on terminal *(View resource option 1)*. This command:
     - list your docker image in your local computer. (Observe that you have hello-world docker image).
 
+
 8. Run `terraform show` on terminal. *(View resource option 2)*. This command:
     - allows viewing of resources that are managed by Terraform.
-    - inspect the current state as terraform sees it.
+    - inspects the current state as terraform sees it.
+
 
 8. Run `terraform destroy` on terminal. This command:
     - removes infrastructure managed by Terraform.
  
+
 9. Run `docker images` or `terraform show`. 
     - Notice that the "hello-world" container been removed from your local computer.
 
