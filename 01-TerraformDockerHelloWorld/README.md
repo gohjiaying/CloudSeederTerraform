@@ -5,7 +5,7 @@ This lab will show you how to:
 
 
 # Reference 
-![alt text](https://github.com/gohjiaying/CloudSeedersTerraform/images/demo1explanation.png) "Workshop 1 Architecture Reference")
+![alt text](https://github.com/gohjiaying/CloudSeedersTerraform/images/demo1explanation.png "Workshop 1 Architecture Reference")
 
 
 # Prequsites
