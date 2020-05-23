@@ -7,12 +7,11 @@ This lab will show you how to:
 ## Workshop Reference 
 ![alt text](https://github.com/gohjiaying/CloudSeedersTerraform/blob/master/images/demo1explanation.png "Workshop 1 Architecture Reference")
 
----
+
 ## Prequsites
 Install terraform by using [terraform getting started guide](https://learn.hashicorp.com/terraform/getting-started/install.html)
 
 
----
 ## Steps
 1. Open main.tf
 
@@ -48,7 +47,7 @@ Install terraform by using [terraform getting started guide](https://learn.hashi
     - To destroy the Terraform managed infrastructure
     - Try running `docker images` or `terraform show` and notice that the "hello-world" container been removed from your local computer
 
----
+
 ## Stretch Challenge
 1. Modify the terraform code in main.tf to pull another image from docker registery
     - Pull an image call "httpd"
