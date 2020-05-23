@@ -1,2 +1,2 @@
 # CloudSeeders DevOps Indulgence Day - Terraform Workshop
-This terraform workshop is a supplement to the terraform presentation. It is designed for beginners and seeks to spark the interest in Infrastructure as Code. 
+This terraform workshop is a supplement to the terraform presentation. It is terraform 101 and feel free to start learning terraform from here. 
