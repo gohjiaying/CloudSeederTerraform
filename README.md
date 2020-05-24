@@ -4,7 +4,3 @@ This terraform workshop is a supplement to the terraform presentation. It is ter
 # How to use this repository
 1. Start with 01-TerraformDockerHelloWorld to learn basic Terraform Configuration and Terraform Commands.
 2. Next, attempt 02-TerraformDockerHttpd to learn about referencing variable between resources.
-
-
-
-

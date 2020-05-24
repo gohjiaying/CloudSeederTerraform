@@ -1,4 +1,4 @@
-# Terraform Docker HelloWorld
+# Terraform Docker HTTPD
 This lab will show you how to:
 1. Read and understand simple terraform configuration code
 2. Use terraform commands to apply the code
@@ -13,50 +13,49 @@ Install terraform by using [terraform getting started guide](https://learn.hashi
 
 
 ## Steps
-1. Open main.tf in an editor.
+1. Open main.tf
 
 
-2. On line 10, define provider as `docker`
+2. Read and understand the code. 
+    - Check if you are able to to answer the following questions.
+        - What is a terraform provider?
+        - What is a terraform resource block?
 
-3. On line 22, define resource type as `docker_image` 
 
-4. On line 23, define image name as `hello-world`. 
-    - The `name` argument in the `docker-image` block will determine which image to pull from the registry
-
-5. Run `terraform init` on terminal. This command:
+3. Run `terraform init` on terminal. This command:
     - initalizes a working directory containing terraform configuration.
     - is usually run once *(Works similar to git init)*.
     - creates an aditional hidden folder named ".terraform" to organize
     packages that are required. In this case docker provider has been retrieved.
 
 
-6. Run `terraform validate` on terminal. This command:
+4. Run `terraform validate` on terminal. This command:
     - checks the syntax of configuration code.
 
 
-7. Run `terraform plan` on terminal. This command:
+5. Run `terraform plan` on terminal. This command:
     - generates and show an execution plan.
     - checks if potential changes match with expectations.
  
 
-8. Run `terraform apply` on terminal. Type `yes` to apply. This command:
+6. Run `terraform apply` on terminal. This command:
     - builds or make changes to infrastructure to reach the desired state as defined in the configuration files.
 
 
-9. Run `docker images` on terminal *(View resource option 1)*. This command:
+7. Run `docker images` on terminal *(View resource option 1)*. This command:
     - list your docker image in your local computer. (Observe that you have hello-world docker image).
 
 
-10. Run `terraform show` on terminal. *(View resource option 2)*. This command:
+8. Run `terraform show` on terminal. *(View resource option 2)*. This command:
     - allows viewing of resources that are managed by Terraform.
     - inspects the current state as terraform sees it.
 
 
-11. Run `terraform destroy` on terminal. This command:
+8. Run `terraform destroy` on terminal. This command:
     - removes infrastructure managed by Terraform.
-
  
-12. Run `docker images` or `terraform show`. 
+
+9. Run `docker images` or `terraform show`. 
     - Notice that the "hello-world" container been removed from your local computer.
 
 
