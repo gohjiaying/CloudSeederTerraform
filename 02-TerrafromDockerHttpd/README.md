@@ -10,7 +10,9 @@ This lab will show you how to:
 
 
 ## Prequsites
-- Install terraform by using [terraform getting started guide](https://learn.hashicorp.com/terraform/getting-started/install.html)
+- To know some basic docker concepts
+- Install Docker by using by using [docker install guide](https://docs.docker.com/get-docker/)
+- Install Terraform by using [terraform getting started guide](https://learn.hashicorp.com/terraform/getting-started/install.html)
 - (Optional) Complete 01-TerraformDockerHelloWorld. 
 
 
