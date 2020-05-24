@@ -1,7 +1,8 @@
-# Terraform Docker HelloWorld
+# Terraform Docker HTTPD
 This lab will show you how to:
-1. Read and understand simple terraform configuration code
-2. Use terraform commands to apply the code
+1. Reference variable of other resources
+2. Define container resource
+3. Run a web server on localhost 8080
 
 
 ## Workshop Reference 
@@ -49,5 +50,5 @@ This lab will show you how to:
     - It should show "It Works!"
 
 
-12. Run `terraform destroy` on terminal to clean up.
+12. Run `terraform destroy` on terminal to clean up. Type `yes` to confirm.
     
