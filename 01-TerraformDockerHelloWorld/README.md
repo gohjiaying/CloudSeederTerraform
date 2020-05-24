@@ -52,7 +52,7 @@ Install terraform by using [terraform getting started guide](https://learn.hashi
     - inspects the current state as terraform sees it.
 
 
-11. Run `terraform destroy` on terminal. This command:
+11. Run `terraform destroy` on terminal. Type `yes` to confirm. This command:
     - removes infrastructure managed by Terraform.
 
  
