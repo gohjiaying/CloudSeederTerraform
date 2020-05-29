@@ -1,14 +1,14 @@
 provider "docker"{}
 
-resource "docker_image" "myapache-image" {
-  name = "httpd"
+resource "docker_image" "my-image" {
+  name = "gmadhavi/nodeapp:terraform"
 }
 
-resource "docker_container" "myapache-container" {
-    name = "mycontainer"
-    image = docker_image.myapache-image.latest
+resource "docker_container" "my-container" {
+    name = "cloudseeders-container"
+    image = docker_image.my-image.latest
     ports {
-        internal = 80
+        internal = 3000
         external = 8080
     }
 }

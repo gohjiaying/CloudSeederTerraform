@@ -2,7 +2,7 @@
 provider "docker" {}
 
 resource "docker_image" "<FILL_IN_TF_RESOURCE_NAME_HERE>" {    #TODO: Define a terraform resource name 
-  name = "httpd"
+  name = "gmadhavi/nodeapp:terraform"
 }
 
 resource "docker_container" "myapache-container" {
