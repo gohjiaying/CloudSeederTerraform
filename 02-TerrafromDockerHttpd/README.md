@@ -49,7 +49,7 @@ This lab will show you how to:
 
 
 11. Go to your browser and type `localhost:8080` into the URL.
-    - It should show "It Works!"
+    - It should show a cloudseeders web app!
 
 
 12. Run `terraform destroy` on terminal to clean up. Type `yes` to confirm.
